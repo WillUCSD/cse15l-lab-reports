@@ -1,1 +1,16 @@
+# Lab Report 1
 
+## No Argument Examples
+1. cat 
+
+*/home as working directory
+* There was no output as the the cat command defaulted to the terminal as there was no file to read. 
+* This is an error as the output
+
+---
+
+## Path to Directory Examples
+
+---
+
+## Parth to File
