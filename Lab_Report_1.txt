@@ -1,15 +1,31 @@
 # Lab Report 1
 
 ## No Argument Examples
-1. cat 
+1. <code>cat</code> 
 
-*/home as working directory
-* There was no output as the the cat command defaulted to the terminal as there was no file to read. 
-* This is an error as the output
+- /home as working directory
+- There was no output as the the cat command defaulted to the terminal as there was no file to read. 
+- This is an error as the output cannot be produced since there is no argument
+
+2. <code>cd</code>
+
+- /home as working directory
+- There is no output as it was already inside the /home directory and the command had no argument, thus making it return to the /home directory 
+regardless 
+- There is no error
+
+4.<code>ls</code>
+
+- /home as working directory
+- the output is <code>lecture1</code> as the command prints out all available files
+- there is no error
 
 ---
 
 ## Path to Directory Examples
+1. <code>cat lecture1</code> 
+
+- The working directory becames lecture1 as 
 
 ---
 
