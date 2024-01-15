@@ -1,3 +1,3 @@
 Bababoeey
 
-[Link to smth.md](Lab_Report_1.txt)
+[Link to Lab_Report_1.txt](Lab_Report_1.txt)
