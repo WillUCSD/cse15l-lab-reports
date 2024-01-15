@@ -4,8 +4,8 @@
 1. <code>cat</code> 
 
 - /home as working directory
-- There was no output as the the cat command defaulted to the terminal as there was no file to read. 
-- This is an error as the output cannot be produced since there is no argument
+- There was no output as the the cat command defaulted to the terminal as there was no file to read. This then makes future inputs essentially spit back at you as <code>cat</code> types whatever you put in.
+- This is not an error 
 
 2. <code>cd</code>
 
