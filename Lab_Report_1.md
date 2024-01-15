@@ -60,7 +60,7 @@
 ![Image](cat_example3.png)
 
 - /lecture1/messages is the path for the working directory when the command was inputted
-- The output is the message `Hello World!` which is printed from the file `en-us.txt` after being parsed throughn the Hello.java file
+- The output is the message `Hello World!` which is printed from the file `en-us.txt` after being parsed through the Hello.java file
 - There is no error
 
 2. `cd en-us.txt`
