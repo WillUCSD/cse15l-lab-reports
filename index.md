@@ -1,3 +1,3 @@
 Bababoeey
 
-[Link to Lab_Report_1.txt](Lab_Report_1.txt)
+[Link to Lab_Report_1](Lab_Report_1.md)
