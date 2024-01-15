@@ -10,8 +10,7 @@
 2. <code>cd</code>
 
 - /home as working directory
-- There is no output as it was already inside the /home directory and the command had no argument, thus making it return to the /home directory 
-regardless 
+- There is no output as it was already inside the /home directory and the command had no argument, thus making it return to the /home directory regardless 
 - There is no error
 
 4.<code>ls</code>
