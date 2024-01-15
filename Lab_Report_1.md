@@ -57,17 +57,23 @@
 ## Path to File
 1. `cat en-us.txt`
 
+![Image](cat_example3.png)
+
 - /lecture1/messages is the path for the working directory when the command was inputted
 - The output is the message `Hello World!` which is printed from the file `en-us.txt` after being parsed throughn the Hello.java file
 - There is no error
 
 2. `cd en-us.txt`
 
+![Image](cd_example3.png)
+
 - /lecture1/messages is the path for the working directory when the command was inputted
 - The output is the error `bash: cd: en-us.txt: Not a directory` as there is an error with the `cd` command considering the command is used to change the current directory the user is in.
 - The output is an error as the `cd` command is used incorrectly as it has to have either nothing or a directory as an argument, not a file
 
 3. `ls en-us.txt`
+
+![Image](ls_example3.png)
 
 - /lecture1/messages is the path for the working directory when the command was inputted
 - The output is the name of the file `en-us.txt`. This is because the correct syntax for `ls` is to have a directory, not a file, as an argument. As such, the contents of the file are ignored and the file name used as the argument is simply printed out again as the output
