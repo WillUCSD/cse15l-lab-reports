@@ -17,13 +17,13 @@
 - There is no output as it was already inside the /home directory and the command had no argument, thus making it return to the /home directory regardless 
 - There is no error
 
-4.<code>ls</code>
+3.<code>ls</code>
 
 ![Image](ls_example1.png)
 
 - /home as working directory
-- the output is <code>lecture1</code> as the command prints out all available files and directories found in the current directory
-- there is no error
+- The output is <code>lecture1</code> as the command prints out all available files and directories found in the current directory
+- There is no error
 
 ---
 
@@ -33,7 +33,7 @@
 ![Image](cat_example2.png)
 
 - /home as working directory
-- The ouptut is <code>cat: lecture1: Is a directory</code> as the argument iss a directory/folder of its files, and the command <code>cat</code> must have a file as its argument.
+- The output is <code>cat: lecture1: Is a directory</code> as the argument is a directory/folder, and the command <code>cat</code> must have a file as its argument.
 - There is an error in the output as <code>cat</code> cannot display any file content considering that <code>lecture1</code> is a directory and not a file
 
 2. <code>cd lecture1</code>
