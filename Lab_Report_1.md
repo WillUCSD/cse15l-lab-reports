@@ -22,7 +22,7 @@
 ![Image](ls_example1.png)
 
 - /home as working directory
-- the output is <code>lecture1</code> as the command prints out all available files
+- the output is <code>lecture1</code> as the command prints out all available files and directories found in the current directory
 - there is no error
 
 ---
