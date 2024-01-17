@@ -11,7 +11,7 @@
 
 2. <code>cd</code>
 
-![Image](cd_example1.png)
+![Image](/More_Images/cd_example1.png)
 
 - /home as working directory
 - There is no output as it was already inside the /home directory and the command had no argument, thus making it return to the /home directory regardless 
@@ -19,7 +19,7 @@
 
 3.<code>ls</code>
 
-![Image](ls_example1.png)
+![Image](/More_Images/ls_example1.png)
 
 - /home as working directory
 - The output is <code>lecture1</code> as the command prints out all available files and directories found in the current directory
@@ -30,7 +30,7 @@
 ## Path to Directory Examples
 1. <code>cat lecture1</code> 
 
-![Image](cat_example2.png)
+![Image](/More_Images/cat_example2.png)
 
 - /home as working directory
 - The output is <code>cat: lecture1: Is a directory</code> as the argument is a directory/folder, and the command <code>cat</code> must have a file as its argument.
@@ -38,7 +38,7 @@
 
 2. <code>cd lecture1</code>
 
-![Image](cd_example2.png)
+![Image](/More_Images/cd_example2.png)
 
 - /home as the original working directory
 - the output is a change in the working directory as the user is now inside the <code>lecture1</code> directory. This is reflected in the shell prompt in the next line of the terminal
@@ -46,7 +46,7 @@
 
 3. <code>ls lecture1</code>
 
-![Image](ls_example2.png)
+![Image](/More_Images/ls_example2.png)
 
 - /home as working directory
 - the output shows all the different files and further directories inside the <code>lecture1</code> directory. This includes `Hello.class`, `Hello.java`, `messages` directory, and `README`.
@@ -57,7 +57,7 @@
 ## Path to File
 1. `cat en-us.txt`
 
-![Image](cat_example3.png)
+![Image](/More_Images/cat_example3.png)
 
 - /lecture1/messages is the path for the working directory when the command was inputted
 - The output is the message `Hello World!` which is printed from the file `en-us.txt` after being parsed through the Hello.java file
@@ -65,7 +65,7 @@
 
 2. `cd en-us.txt`
 
-![Image](cd_example3.png)
+![Image](/More_Images/cd_example3.png)
 
 - /lecture1/messages is the path for the working directory when the command was inputted
 - The output is the error `bash: cd: en-us.txt: Not a directory` as there is an error with the `cd` command considering the command is used to change the current directory the user is in.
@@ -73,7 +73,7 @@
 
 3. `ls en-us.txt`
 
-![Image](ls_example3.png)
+![Image](/More_Images/ls_example3.png)
 
 - /lecture1/messages is the path for the working directory when the command was inputted
 - The output is the name of the file `en-us.txt`. This is because the correct syntax for `ls` is to have a directory, not a file, as an argument. As such, the contents of the file are ignored and the file name used as the argument is simply printed out again as the output
