@@ -3,7 +3,7 @@
 ## No Argument Examples
 1. <code>cat</code> 
 
-![Image](cat_example1.png)
+![Image](/More_Images/cat_example1.png)
 
 - /home as working directory
 - There was no output as the the cat command defaulted to the terminal as there was no file to read. This then makes future inputs essentially spit back at you as <code>cat</code> types whatever you put in.
