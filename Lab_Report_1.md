@@ -5,7 +5,7 @@
 
 ![Image](/More_Images/cat_example1.png)
 
-- /home as working directory
+- `/home` as working directory
 - There was no output as the the cat command defaulted to the terminal as there was no file to read. This then makes future inputs essentially spit back at you as <code>cat</code> types whatever you put in.
 - This is not an error 
 
@@ -13,7 +13,7 @@
 
 ![Image](/More_Images/cd_example1.png)
 
-- /home as working directory
+- `/home` as working directory
 - There is no output as it was already inside the /home directory and the command had no argument, thus making it return to the /home directory regardless 
 - There is no error
 
@@ -21,7 +21,7 @@
 
 ![Image](/More_Images/ls_example1.png)
 
-- /home as working directory
+- `/home` as working directory
 - The output is <code>lecture1</code> as the command prints out all available files and directories found in the current directory
 - There is no error
 
@@ -32,7 +32,7 @@
 
 ![Image](/More_Images/cat_example2.png)
 
-- /home as working directory
+- `/home` as working directory
 - The output is <code>cat: lecture1: Is a directory</code> as the argument is a directory/folder, and the command <code>cat</code> must have a file as its argument.
 - There is an error in the output as <code>cat</code> cannot display any file content considering that <code>lecture1</code> is a directory and not a file
 
@@ -40,7 +40,7 @@
 
 ![Image](/More_Images/cd_example2.png)
 
-- /home as the original working directory
+- `/home` as the original working directory
 - the output is a change in the working directory as the user is now inside the <code>lecture1</code> directory. This is reflected in the shell prompt in the next line of the terminal
 - There is no error
 
@@ -48,7 +48,7 @@
 
 ![Image](/More_Images/ls_example2.png)
 
-- /home as working directory
+- `/home` as working directory
 - the output shows all the different files and further directories inside the <code>lecture1</code> directory. This includes `Hello.class`, `Hello.java`, `messages` directory, and `README`.
 - There is no error
 
