@@ -2,12 +2,15 @@
 
 ## Part 2
 1. Absolute Path to Private Key
+   
 ![Image](/More_Images/private_key.png)
 
 2. Absolute Path to Public Key
+   
 ![Image](/More_Images/public_key.png)
 
 3. Terminal Interaction
+   
 ![Image](/More_Images/terminal_interaction.png)
 ## Part 3
 
