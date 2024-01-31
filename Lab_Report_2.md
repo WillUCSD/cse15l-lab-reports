@@ -1,5 +1,5 @@
 ## Part 1
-1. The CODE for `Chatserver` 
+1. The CODE for `ChatServer` 
    
 ![Image](/More_Images/Lab2code.png)
 
@@ -9,7 +9,8 @@
 
 - Several Methods are called such as `getPath()`, `contains()`, `getQuery()`, `split()`, `getPath()`, `add()`
  `format()`, `get()`, `clear()`, and `join()`.
-- 
+- Some relevent arguments are the `URI` s, `/add-message` for `contains()` method, `&` and `=` for `split()` method, `String response`
+for the `add()` method, `String resultList` for the `get()` method, and `String` responses for the  
 
 
 3. 2nd Request
