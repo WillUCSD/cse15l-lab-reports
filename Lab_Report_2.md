@@ -7,7 +7,7 @@
 
 2. Absolute Path to Public Key
    
-![Image](/More_Images/public_key.png)
+![Image](/More_Images/public key.png)
 
 3. Terminal Interaction
    
