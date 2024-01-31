@@ -1,5 +1,7 @@
 ## Part 1
-
+1. The CODE screenshot
+   
+![Image](/More_Images/)
 
 
 ## Part 2
