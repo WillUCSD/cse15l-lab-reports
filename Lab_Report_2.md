@@ -1,11 +1,11 @@
 ## Part 1
 1. The CODE for `Chatserver` 
    
-![Image](/More_Images/Lab2_code.png)
+![Image](/More_Images/Lab2code.png)
 
 2. 1st Request
    
-![Image](/More_Images/request_1.png)
+![Image](/More_Images/request1.png)
 
 - Several Methods are called such as `getPath()`, `contains()`, `getQuery()`, `split()`, `getPath()`, `add()`
  `format()`, `get()`, `clear()`, and `join()`.
@@ -14,7 +14,10 @@
 
 3. 2nd Request
 
-![Image](/More_Images/request_2.png)
+![Image](/More_Images/request2.png)
+
+- Several Methods are called such as `getPath()`, `contains()`, `getQuery()`, `split()`, `getPath()`, `add()`
+ `format()`, `get()`, `clear()`, and `join()`.
 
 ## Part 2
 1. Absolute Path to Private Key
