@@ -96,6 +96,7 @@ william@Williams-MacBook-Air-3 biomed % grep -i "overweight" 1468-6708-3-1.txt
 ```
 The following command displays all the lines that have the pattern "overweight" inside it regardless if "overweight" is capitalized at all. This can useful to indentfy portions of the text in which capitalization is not an issue or delineating factor. 
 ___
+
 2. `grep -n` : The command line option `n` makes it so that the search will prefix the line of output with the 1-based line number of its input file
 
 Examples:
@@ -141,7 +142,9 @@ william@Williams-MacBook-Air-3 biomed % grep -n "overweight" 1468-6708-3-1.txt
 ```
 
 The following command displays all the lines that have the pattern "overweight" as well as prefixing the line of out put with the line number of its input file. This can be useful in identifying specific portion of the txt file that have that pattern.
+
 ___
+
 3. `grep -v` : The command line option `v` makes it so that the search will display lines that DO NOT follow the specified pattern.
 
 Examples:
@@ -981,6 +984,7 @@ william@Williams-MacBook-Air-3 biomed % grep -v  "overweight" 1468-6708-3-1.txt
 ```
 The following command displays all the lines that do not have the pattern "overweight". This can be useful in narrowing down certain lines that you want to look at.
 ___
+
 4. `grep -l`: Command line option `-l` makes it so that the search will display the names of the file that have the matching pattern. This is useful when you are searching for a pattern through multiple files without wanting to display the matched lines.
 
 Examples:
