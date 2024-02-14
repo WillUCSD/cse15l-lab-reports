@@ -2,12 +2,14 @@
 1. **Failure Inducing Bug**
    
 - JUnit Test (Failure Inducing Input)
+  
 `public void testReversed() {
     int[] input1 = {1,2,3};
     assertArrayEquals(new int[]{3,2,1 }, ArrayExamples.reversed(input1));
   }`
   
 - JUnit Test (Success Inducing Input)
+  
 `public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
