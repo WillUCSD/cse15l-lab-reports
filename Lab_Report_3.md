@@ -18,7 +18,7 @@ public void testReverseInPlace() {
 ```
 - **Symptom**
 
-![Image](/More_Images/)
+![Image](/More_Images/Symptom.png)
 
 - **The Bug (Before and After)**
   
