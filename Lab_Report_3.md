@@ -75,9 +75,11 @@ Examples:
         obese or underweight older adults, and discouraging trials
         that address older adults who are merely overweight.`
 ```
+
 - The following command displays all the lines that have the pattern "adults" inside it regardless if "adults" is capitalized at all. This can useful to indentfy portions of the text in which capitalization is not an issue or delineating factor. 
 
-```william@Williams-MacBook-Air-3 biomed % grep -i "overweight" 1468-6708-3-1.txt
+```
+william@Williams-MacBook-Air-3 biomed % grep -i "overweight" 1468-6708-3-1.txt
         even though there is little evidence that overweight is
           BMI of 18.5 to 24.9; overweight as 25 to 29.9; and
         classified as normal, overweight or obese all had about the
@@ -118,7 +120,9 @@ william@Williams-MacBook-Air-3 biomed % grep -n "adults" 1468-6708-3-1.txt
 412:        obese or underweight older adults, and discouraging trials
 413:        that address older adults who are merely overweight.
 ```
+
 - The following command displays all the lines that have the pattern "adults" as well as prefixing the line of out put with the line number of its input file. This can be useful in identifying specific portion of the txt file that have that pattern.
+  
 ```
 william@Williams-MacBook-Air-3 biomed % grep -n "overweight" 1468-6708-3-1.txt
 7:        even though there is little evidence that overweight is
@@ -135,16 +139,15 @@ william@Williams-MacBook-Air-3 biomed % grep -n "overweight" 1468-6708-3-1.txt
 410:        'overweight' by the NHLBI guidelines. This suggests using
 413:        that address older adults who are merely overweight.
 ```
+
 - The following command displays all the lines that have the pattern "overweight" as well as prefixing the line of out put with the line number of its input file. This can be useful in identifying specific portion of the txt file that have that pattern.
 ___
 3. `grep -v` : The command line option `v` makes it so that the search will display lines that DO NOT follow the specified pattern.
 
 Examples:
+
 ```
 william@Williams-MacBook-Air-3 biomed % grep -v "adults" 1468-6708-3-1.txt   
-
-  
-    
       
         Introduction
         even though there is little evidence that overweight is
@@ -554,7 +557,9 @@ william@Williams-MacBook-Air-3 biomed % grep -v "adults" 1468-6708-3-1.txt
         YHL Years of healthy life
         YOL Years of life
 ```
+
 - The following command displays all the lines that do not have the pattern "adults". This can be useful in narrowing down certain lines that you want to look at.
+
 ```
 william@Williams-MacBook-Air-3 biomed % grep -v  "overweight" 1468-6708-3-1.txt
 
@@ -974,6 +979,7 @@ william@Williams-MacBook-Air-3 biomed % grep -v  "overweight" 1468-6708-3-1.txt
         YHL Years of healthy life
         YOL Years of life
 ```
+
 - The following command displays all the lines that do not have the pattern "overweight". This can be useful in narrowing down certain lines that you want to look at.
 ___
 4. `grep -l`: Command line option `-l` makes it so that the search will display the names of the file that have the matching pattern. This is useful when you are searching for a pattern through multiple files without wanting to display the matched lines.
@@ -984,11 +990,14 @@ Examples:
 william@Williams-MacBook-Air-3 biomed % grep -l "adults" 1468-6708-3-1.txt 1468-6708-3-3.txt 1468-6708-3-4.txt
 1468-6708-3-1.txt
 ```
+
 - The following command displays the files that have the pattern "adult" within it. This is useful if have to look through multiple files and need to narrow it down through a keyword.
+
 ```
 william@Williams-MacBook-Air-3 biomed % grep -l "overweight" 1468-6708-3-1.txt 1468-6708-3-3.txt 1468-6708-3-4.txt
 1468-6708-3-1.txt
 ```
+
 -The following command displays the files that have the pattern "overweight" within it. This is useful if have to look through multiple files and need to narrow it down through a keyword.
 
 
