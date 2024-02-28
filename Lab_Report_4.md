@@ -3,7 +3,7 @@
 
 Keys pressed: `ssh w5su@ieng6.ucsd.edu`, `<enter>` The command is used to log into the the ieng6 server. There is no need to enter the password. 
 
-![Image](/More_Images/Symptom.png)
+![Image](/More_Images/Lab7Step1.png)
 
 ## Step 2
 
