@@ -7,7 +7,7 @@ Keys pressed: `ssh w5su@ieng6.ucsd.edu`, `<enter>` The command is used to log in
 
 ## Step 2
 
-Keys pressed: Fork the repository and copy the ssh key. Go to the terminal and paste the  `git clone git@github.com:ucsd-cse15l-s23/lab7.git` `<enter>` to copy over the forked repository into the server. 
+Keys pressed: Fork the repository and copy the ssh key. Go to the terminal and paste the  `git@github.com:WillUCSD/lab7.git` `<enter>` to copy over the forked repository into the server. 
 
 ![Image](/More_Images/Lab7Step2.png)
 
