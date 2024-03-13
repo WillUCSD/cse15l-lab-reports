@@ -27,6 +27,6 @@ Press `bash test.sh` `<enter>` to run the test and show success.
 ![Image](/More_Images/Lab7Step5.png)
 
 ## Step 6
-Press `git commit -m "Fixed ListExamples"` `<enter>` to commit the changes with the message "Fixed ListExamples". Then press `git push` `<enter>` to push the changes to the main branch. 
+Press `git commit -m "Fixed ListExamples"` `<enter>` to commit the changes with the message "Fixed ListExamples". Then press `git push` `<enter>` to push the changes to the main branch. The branch labeled as "main" that was updated is referring to the main branch of the lab7 repository that was forked from ucsd-cse15l-s23/lab7:main, not the original repository that is ucsd-cse15l-s23/lab7:main. 
 
 ![Image](/More_Images/Lab7Step6.png)
