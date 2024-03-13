@@ -17,7 +17,7 @@ Keys pressed: enter `ls` `<enter>` to see all the directories and files inside t
 ![Image](/More_Images/Lab7Step3.png)
 
 ## Step 4
-Press `ls` `<enter>` then `vim ListExamples.java` to edit the code in vim. Press `<down>` `<down>` `<down>``<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` to reach the `index1`. Press `i` to go into insert mode. Press `<delete>` `2`  to edit `index1` into `index2`. Then press `<escape>` and `:wq` to return to normal mode and save changes. 
+Press `ls` `<enter>` then `vim ListExamples.java` to edit the code in vim. Press `<down>` `<down>` `<down>``<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` to reach the `index1` at line 44. Press `i` to go into insert mode. Press `<delete>` `2`  to edit `index1` into `index2` at line 44 of the file. Then press `<escape>` and `:wq` to return to normal mode and save changes. 
 
 ![Image](/More_Images/Lab7Step4.png)
 
